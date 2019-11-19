@@ -1,19 +1,21 @@
 <?php get_header(); ?>
 
 <section>
-     <div class="border-sec">
+     <div class="banner-sec">
           <div>
-               <img class="border-sec__bg" src="<?php echo get_template_directory_uri(); ?>/dist/images/banner-bg.png" alt="">
+               <canvas></canvas>
           </div>
-          <div class="banner-sec__text">
-               <h1>Good food choices are good investments.</h1>
-               <p>There is a powerful need for symbolism, and that means the architecture must have something that appeals to the human heart.</p>
-          </div><!-- /banner text -->
-          <div class="banner-sec__btn">
-               <button type="button" class="banner-sec__order-btn">Order Now</button>
-               <span>Watch our story</span>
-               <button type="button" class="banner-sec__play-btn">play</button>
-          </div><!-- /banner buttons -->
+          <div class="banner-sec__content">
+               <div class="banner-sec__text">
+                    <h1 class="banner-sec__ttl">Good food choices are good investments.</h1>
+                    <p class="banner-sec__dtl">There is a powerful need for symbolism, and that means the architecture must have something that appeals to the human heart.</p>
+               </div><!-- /banner text -->
+               <div class="banner-sec__btn">
+                    <a href="#" class="banner-sec__order-btn">Order now</a>
+                    <span>Watch our story</span>
+                    <a href="#" class="banner-sec__play-btn">play</a>
+               </div><!-- /banner buttons -->
+          </div>
      </div>
 </section> <!-- /end of banner -->
 <section>
